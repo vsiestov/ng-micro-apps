@@ -21,5 +21,44 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "app-shell": {
+      "tags": []
+    },
+    "app-shell-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app-shell"]
+    },
+    "products": {
+      "tags": []
+    },
+    "products-e2e": {
+      "tags": [],
+      "implicitDependencies": ["products"]
+    },
+    "tasks": {
+      "tags": []
+    },
+    "tasks-e2e": {
+      "tags": [],
+      "implicitDependencies": ["tasks"]
+    },
+    "boards": {
+      "tags": []
+    },
+    "boards-e2e": {
+      "tags": [],
+      "implicitDependencies": ["boards"]
+    },
+    "reports": {
+      "tags": []
+    },
+    "reports-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reports"]
+    },
+    "ui": {
+      "tags": []
+    }
+  }
 }
